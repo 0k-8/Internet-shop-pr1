@@ -1,4 +1,4 @@
-package com.kizlyak.internetshop.domain.enums;
+package com.kizlyak.internetshop.domain.model.enums;
 
 public enum FielFormat {
     EMAIL("^[A-Za-z0-9+_.-]+@(.+)$"),

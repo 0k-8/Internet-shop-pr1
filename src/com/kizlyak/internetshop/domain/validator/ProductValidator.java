@@ -1,6 +1,6 @@
-package com.kizlyak.internetshop.domain.util;
+package com.kizlyak.internetshop.domain.validator;
 
-import com.kizlyak.internetshop.domain.Product;
+import com.kizlyak.internetshop.domain.model.Product;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;

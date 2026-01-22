@@ -1,6 +1,6 @@
-package com.kizlyak.internetshop.domain;
+package com.kizlyak.internetshop.domain.model;
 
-import com.kizlyak.internetshop.domain.enums.UserRole;
+import com.kizlyak.internetshop.domain.model.enums.UserRole;
 
 public class User extends BaseEntity implements Comparable<User> {
 

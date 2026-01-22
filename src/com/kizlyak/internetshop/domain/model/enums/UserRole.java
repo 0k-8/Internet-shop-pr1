@@ -1,4 +1,4 @@
-package com.kizlyak.internetshop.domain.enums;
+package com.kizlyak.internetshop.domain.model.enums;
 
 public enum UserRole {
     ADMIN("Адміністратор"),

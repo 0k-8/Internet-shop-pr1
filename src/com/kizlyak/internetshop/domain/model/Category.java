@@ -1,4 +1,4 @@
-package com.kizlyak.internetshop.domain;
+package com.kizlyak.internetshop.domain.model;
 
 import java.util.Objects;
 

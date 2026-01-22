@@ -1,6 +1,6 @@
-package com.kizlyak.internetshop.service.impl;
+package com.kizlyak.internetshop.domain.impl;
 
-import com.kizlyak.internetshop.domain.User;
+import com.kizlyak.internetshop.domain.model.User;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package com.kizlyak.internetshop.domain.exception; // Виправлено назву пакету
 
-import com.kizlyak.internetshop.domain.util.ValidationError;
+import com.kizlyak.internetshop.domain.validator.ValidationError;
 import java.util.List;
 
 /**

@@ -1,4 +1,4 @@
-package com.kizlyak.internetshop.domain.util;
+package com.kizlyak.internetshop.domain.validator;
 
 public record ValidationError(String field, String message) {
 

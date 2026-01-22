@@ -1,7 +1,7 @@
 package com.kizlyak.internetshop.domain.repository;
 
 
-import com.kizlyak.internetshop.domain.Order;
+import com.kizlyak.internetshop.domain.model.Order;
 import java.util.List;
 import java.util.UUID;
 

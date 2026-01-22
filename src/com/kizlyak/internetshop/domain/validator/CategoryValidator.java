@@ -1,6 +1,6 @@
-package com.kizlyak.internetshop.domain.util;
+package com.kizlyak.internetshop.domain.validator;
 
-import com.kizlyak.internetshop.domain.Category;
+import com.kizlyak.internetshop.domain.model.Category;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.kizlyak.internetshop.service.impl; // Переконайтеся, що папка відповідає пакету
+package com.kizlyak.internetshop.domain.impl; // Переконайтеся, що папка відповідає пакету
 
-import com.kizlyak.internetshop.domain.User;
+import com.kizlyak.internetshop.domain.model.User;
 import com.kizlyak.internetshop.domain.repository.UserRepository;
 import java.util.ArrayList;
 import java.util.List;

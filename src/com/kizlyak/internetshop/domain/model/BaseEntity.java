@@ -1,4 +1,4 @@
-package com.kizlyak.internetshop.domain;
+package com.kizlyak.internetshop.domain.model;
 
 import java.util.Objects;
 import java.util.UUID;
@@ -16,7 +16,6 @@ public abstract class BaseEntity implements Entity {
         return id;
     }
 
-    // БЕЗ ЦЬОГО МЕТОДУ equals() БУДЕ ПРАЦЮВАТИ НЕКОРЕКТНО
     @Override
     public boolean equals(Object o) {
         if (this == o) {

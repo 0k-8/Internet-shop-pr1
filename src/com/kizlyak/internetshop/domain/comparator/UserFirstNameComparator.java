@@ -1,6 +1,6 @@
 package com.kizlyak.internetshop.domain.comparator;
 
-import com.kizlyak.internetshop.domain.User;
+import com.kizlyak.internetshop.domain.model.User;
 import java.util.Comparator;
 
 public class UserFirstNameComparator implements Comparator<User> {
