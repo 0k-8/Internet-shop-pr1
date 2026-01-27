@@ -47,8 +47,7 @@ public class UnitOfWorkImpl implements UnitOfWork {
         productMapper.readFromFile().forEach(productCache::add);
         userMapper.readFromFile().forEach(userCache::add);
         orderMapper.readFromFile().forEach(orderCache::add);
-
-        System.out.println("Завантажено замовлень з файлу: " + orderCache.getAll().size());
+        
     }
 
     @Override
