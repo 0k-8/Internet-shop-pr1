@@ -1,7 +1,7 @@
 package com.kizlyak.internetshop.domain.impl;
 
-import com.kizlyak.internetshop.domain.model.Product;
 import com.kizlyak.internetshop.domain.cache.IdentityMap;
+import com.kizlyak.internetshop.domain.model.Product;
 import com.kizlyak.internetshop.domain.repository.ProductRepository;
 import java.util.ArrayList;
 import java.util.List;
@@ -18,11 +18,16 @@ public class ProductRepositoryImpl implements ProductRepository {
 
     @Override
     public void save(Product product) {
-        cache.add(product);
+        if (product != null) {
+            cache.add(product);
+        }
     }
 
     @Override
     public Optional<Product> findById(UUID id) {
+        if (id == null) {
+            return Optional.empty();
+        }
         return Optional.ofNullable(cache.get(id));
     }
 
@@ -33,6 +38,8 @@ public class ProductRepositoryImpl implements ProductRepository {
 
     @Override
     public void delete(UUID id) {
-        cache.remove(id);
+        if (id != null) {
+            cache.remove(id); // Тепер цей метод точно знайдено в IdentityMap
+        }
     }
 }

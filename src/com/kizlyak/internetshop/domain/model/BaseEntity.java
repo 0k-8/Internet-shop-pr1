@@ -3,7 +3,7 @@ package com.kizlyak.internetshop.domain.model;
 import java.util.Objects;
 import java.util.UUID;
 
-public abstract class BaseEntity implements Entity {
+public abstract class BaseEntity {
 
     private final UUID id;
 
@@ -11,9 +11,13 @@ public abstract class BaseEntity implements Entity {
         this.id = UUID.randomUUID();
     }
 
-    @Override
     public UUID getId() {
         return id;
+    }
+
+    // Додаємо цей метод для зручності відображення в консолі
+    public String getIdAsString() {
+        return id.toString();
     }
 
     @Override

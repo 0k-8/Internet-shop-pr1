@@ -1,0 +1,20 @@
+[
+  {
+    "username": "денис",
+    "email": "kizljakdenja@gmail.com",
+    "lastName": "кізляк",
+    "role": "USER",
+    "password": "$2a$10$elivTQvNJ3M7zrHkt5hu9O6Req3LHJGUGw849Thpca.4bvOzakvk2",
+    "firstName": "Денис",
+    "id": "8c788b00-74de-4a8e-a7bd-b3c8b48b74c2"
+  },
+  {
+    "username": "admin",
+    "email": "admin@shop.com",
+    "lastName": "Адміністратор",
+    "role": "ADMIN",
+    "password": "$2a$10$elivTQvNJ3M7zrHkt5hu9O6Req3LHJGUGw849Thpca.4bvOzakvk2",
+    "firstName": "Головний",
+    "id": "550e8400-e29b-41d4-a716-446655440000"
+  }
+]

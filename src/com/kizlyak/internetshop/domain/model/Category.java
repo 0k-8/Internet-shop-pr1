@@ -7,6 +7,19 @@ public class Category extends BaseEntity {
     private String name;
     private String description;
 
+    // 1. Порожній конструктор для GSON (щоб дані правильно читалися з JSON)
+    public Category() {
+        super();
+    }
+
+    // 2. Конструктор тільки з ім'ям (саме він виправить помилку в DTO!)
+    public Category(String name) {
+        super();
+        this.name = name;
+        this.description = ""; // Опис за замовчуванням порожній
+    }
+
+    // 3. Твій оригінальний конструктор
     public Category(String name, String description) {
         super();
         this.name = name;
@@ -31,7 +44,7 @@ public class Category extends BaseEntity {
 
     @Override
     public String toString() {
-        return "Категорія: " + name;
+        return name; // Повертаємо тільки назву для зручності у списках
     }
 
     @Override
@@ -42,8 +55,13 @@ public class Category extends BaseEntity {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        BaseEntity that = (BaseEntity) o;
-        // Використовуємо метод getId() замість поля id
-        return Objects.equals(this.getId(), that.getId());
+        Category category = (Category) o;
+        // Порівнюємо за ID, якщо вони є, або за назвою
+        return Objects.equals(getId(), category.getId()) || Objects.equals(name, category.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId(), name);
     }
 }

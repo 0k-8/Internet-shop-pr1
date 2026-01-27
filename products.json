@@ -1,0 +1,291 @@
+[
+  {
+    "name": "LG OLED C2",
+    "description": "OLED телевізор з ідеальною якістю зображення",
+    "price": 67000,
+    "stockQuantity": 4,
+    "category": {
+      "name": "Телевізори",
+      "id": "0155b21d-d399-408b-a1e5-42052254ce16"
+    },
+    "id": "8b888888-bbbb-4333-8444-888888888888"
+  },
+  {
+    "name": "Sony PlayStation 5",
+    "description": "Ігрова консоль нового покоління",
+    "price": 26000,
+    "stockQuantity": 7,
+    "category": {
+      "name": "Ігрові приставки",
+      "id": "6ad82d9a-20e4-423f-a0b4-5a08ae3efd66"
+    },
+    "id": "9c999999-cccc-4444-8555-999999999999"
+  },
+  {
+    "name": "HyperX Alloy FPS",
+    "description": "Механічна клавіатура для геймерів",
+    "price": 6778,
+    "stockQuantity": 2,
+    "category": {
+      "name": "Комплектуючі та аксесуари",
+      "description": "",
+      "id": "e1229a83-8794-4734-9d44-38eab21e4e12"
+    },
+    "id": "15111111-bbbb-4fff-8111-111111111111"
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "description": "Флагманський Android-смартфон",
+    "price": 38000,
+    "stockQuantity": 12,
+    "category": {
+      "name": "Смартфони",
+      "id": "a26b72ee-a1fe-40bf-84c7-234b7bb3b277"
+    },
+    "id": "2b222222-bbbb-4ccc-8ddd-222222222222"
+  },
+  {
+    "name": "макбук леново х28",
+    "description": "дуже крутий ноутбук для малювання на колінках в гарної дівчинки",
+    "price": 1000000,
+    "stockQuantity": 47,
+    "category": {
+      "name": "Ноутбуки",
+      "description": "",
+      "id": "0f96b90d-e2d4-48c6-ae95-9b445b23e111"
+    },
+    "id": "5b4d4cdf-7dba-4f6c-a922-06272415bd9c"
+  },
+  {
+    "name": "iPhone 14",
+    "description": "Смартфон з потужним процесором A15",
+    "price": 42000,
+    "stockQuantity": 8,
+    "category": {
+      "name": "Смартфони",
+      "id": "a80d0b67-37df-4f60-924b-8b278675200a"
+    },
+    "id": "1a111111-aaaa-4bbb-8ccc-111111111111"
+  },
+  {
+    "name": "Xiaomi Redmi Note 13",
+    "description": "Бюджетний смартфон з хорошою камерою",
+    "price": 15000,
+    "stockQuantity": 25,
+    "category": {
+      "name": "Смартфони",
+      "id": "12e73248-4013-48c3-b4f4-db16ce2a772c"
+    },
+    "id": "3c333333-cccc-4ddd-8eee-333333333333"
+  },
+  {
+    "name": "Samsung UE55AU7100",
+    "description": "55-дюймовий Smart TV",
+    "price": 29000,
+    "stockQuantity": 6,
+    "category": {
+      "name": "Телевізори",
+      "id": "f4bfc2d2-a780-43d9-b94c-00742770cd55"
+    },
+    "id": "7a777777-aaaa-4222-8333-777777777777"
+  },
+  {
+    "name": "vsif",
+    "description": "vsiv",
+    "price": 2344,
+    "stockQuantity": 12,
+    "category": {
+      "name": "Телевізори",
+      "description": "",
+      "id": "f5f7e2d2-4d4a-4d4d-853e-f4e4656eddcc"
+    },
+    "id": "2f546da8-039a-4a59-9a4b-4b6403a43abb"
+  },
+  {
+    "name": "MacBook Air M1",
+    "description": "Легкий ноутбук для розробки",
+    "price": 45000,
+    "stockQuantity": 10,
+    "category": {
+      "name": "Ноутбуки",
+      "id": "7681515c-1544-4f3c-9e67-1c9f012e2d10"
+    },
+    "id": "5e555555-eeee-4fff-8111-555555555555"
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "description": "Смарт-годинник для здоровʼя",
+    "price": 18000,
+    "stockQuantity": 14,
+    "category": {
+      "name": "Смарт-годинники та браслети",
+      "id": "72221abd-4e50-4470-9d0c-d0f549eae719"
+    },
+    "id": "ee505050-bbbb-4999-8aaa-505050505050"
+  },
+  {
+    "name": "Dell UltraSharp U2721D",
+    "description": "27-дюймовий QHD монітор для професіоналів",
+    "price": 19500,
+    "stockQuantity": 8,
+    "category": {
+      "name": "Комплектуючі та аксесуари",
+      "id": "a1b2c3d4-e5f6-7890-1234-56789abcdef0"
+    },
+    "id": "4d444444-eeee-4111-8222-444444444444"
+  },
+  {
+    "name": "JBL Charge 5",
+    "description": "Портативна Bluetooth-колонка",
+    "price": 7500,
+    "stockQuantity": 20,
+    "category": {
+      "name": "Аудіотехніка",
+      "id": "513532a5-56cd-417d-a725-c44819bd51ed"
+    },
+    "id": "11171717-dddd-4bbb-8ccc-717171717171"
+  },
+  {
+    "name": "Canon EOS M50",
+    "description": "Бездзеркальний фотоапарат",
+    "price": 24000,
+    "stockQuantity": 5,
+    "category": {
+      "name": "Фото- та Відеотехніка",
+      "id": "2e5a13d8-230e-49b2-83a6-049e6729be86"
+    },
+    "id": "13191919-ffff-4ddd-8eee-919191919191"
+  },
+  {
+    "name": "Kindle Paperwhite Signature Edition",
+    "description": "Електронна книга з підсвічуванням",
+    "price": 8000,
+    "stockQuantity": 22,
+    "category": {
+      "name": "Планшети та електронні книги",
+      "id": "d4e5f678-9012-3456-789a-bcdef0123456"
+    },
+    "id": "7a777777-bbbb-4444-8555-777777777777"
+  },
+  {
+    "name": "Bosch WAN24260",
+    "description": "Пральна машина з інверторним двигуном",
+    "price": 21000,
+    "stockQuantity": 9,
+    "category": {
+      "name": "Побутова техніка",
+      "id": "5513b984-c779-4cd4-ac7c-c76b9610d0bd"
+    },
+    "id": "bb202020-eeee-4666-8777-202020202020"
+  },
+  {
+    "name": "ASUS ROG Strix G15",
+    "description": "Ігровий ноутбук з RTX відеокартою",
+    "price": 85000,
+    "stockQuantity": 2,
+    "category": {
+      "name": "Ноутбуки",
+      "id": "c85479d0-c465-4619-8958-60373a9ec925"
+    },
+    "id": "6f666666-ffff-4111-8222-666666666666"
+  },
+  {
+    "name": "Logitech MX Master 3",
+    "description": "Бездротова миша для роботи",
+    "price": 4200,
+    "stockQuantity": 18,
+    "category": {
+      "name": "Комплектуючі та аксесуари",
+      "id": "37b23c0a-428d-4579-9e78-c4b5c52d11e9"
+    },
+    "id": "14101010-aaaa-4eee-8fff-101010101010"
+  },
+  {
+    "name": "LG GA-B509",
+    "description": "Двокамерний холодильник",
+    "price": 28000,
+    "stockQuantity": 6,
+    "category": {
+      "name": "Побутова техніка",
+      "id": "8c1237a3-c417-4329-8317-a86fd5df43d6"
+    },
+    "id": "cc303030-ffff-4777-8888-303030303030"
+  },
+  {
+    "name": "Samsung Galaxy Tab S8",
+    "description": "Флагманський планшет на Android",
+    "price": 30000,
+    "stockQuantity": 9,
+    "category": {
+      "name": "Планшети та електронні книги",
+      "id": "e5f67890-1234-5678-9abc-def012345678"
+    },
+    "id": "8b888888-cccc-4555-8666-888888888888"
+  },
+  {
+    "name": "Philips HD9650",
+    "description": "Аерофрайер для здорового харчування",
+    "price": 12000,
+    "stockQuantity": 15,
+    "category": {
+      "name": "Побутова техніка",
+      "id": "4b2a61b0-acf1-44d4-bc4a-91b346766ac5"
+    },
+    "id": "dd404040-aaaa-4888-8999-404040404040"
+  },
+  {
+    "name": "Nintendo Switch OLED",
+    "description": "Портативна ігрова консоль з OLED екраном",
+    "price": 14000,
+    "stockQuantity": 15,
+    "category": {
+      "name": "Ігрові приставки",
+      "id": "b2c3d4e5-f678-9012-3456-789abcdef012"
+    },
+    "id": "5e555555-ffff-4222-8333-555555555555"
+  },
+  {
+    "name": "GoPro HERO 11 Black",
+    "description": "Екшн-камера для активного відпочинку",
+    "price": 17000,
+    "stockQuantity": 7,
+    "category": {
+      "name": "Фото- та Відеотехніка",
+      "id": "c3d4e5f6-7890-1234-5678-9abcdef01234"
+    },
+    "id": "6f666666-aaaa-4333-8444-666666666666"
+  },
+  {
+    "name": "Samsung Galaxy Watch 6",
+    "description": "Розумний годинник для Android",
+    "price": 15000,
+    "stockQuantity": 10,
+    "category": {
+      "name": "Смарт-годинники та браслети",
+      "id": "fd88f8f3-348a-49b7-9305-69d0a92158a8"
+    },
+    "id": "ff606060-cccc-4aaa-8bbb-606060606060"
+  },
+  {
+    "name": "Xbox Series X",
+    "description": "Потужна ігрова консоль від Microsoft",
+    "price": 25000,
+    "stockQuantity": 5,
+    "category": {
+      "name": "Ігрові приставки",
+      "id": "dc9e0acf-4d84-4f3b-99b9-16e1dabc49c7"
+    },
+    "id": "aa101010-dddd-4555-8666-101010101010"
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "description": "Навушники з активним шумозаглушенням",
+    "price": 1114,
+    "stockQuantity": 0,
+    "category": {
+      "name": "Аудіотехніка",
+      "id": "5049f426-8052-41eb-9728-07709bca7aa5"
+    },
+    "id": "12181818-eeee-4ccc-8ddd-818181818181"
+  }
+]

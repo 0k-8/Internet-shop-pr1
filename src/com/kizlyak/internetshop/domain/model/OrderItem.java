@@ -14,11 +14,15 @@ public class OrderItem {
         this.price = product.getPrice();
     }
 
-    public BigDecimal getPrice() {
-        return price;
+    public Product getProduct() {
+        return product;
     }
 
     public int getQuantity() {
         return quantity;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
     }
 }

@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Type;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,8 +19,12 @@ public class JsonDataMapper<T> {
     public JsonDataMapper(String filePath, Type listType) {
         this.filePath = filePath;
         this.listType = listType;
-        // setPrettyPrinting робить JSON читабельним для людини
-        this.gson = new GsonBuilder().setPrettyPrinting().create();
+
+        // ОНОВЛЕНО: Додаємо LocalDateTimeAdapter, щоб Java 25 не видавала помилку
+        this.gson = new GsonBuilder()
+              .registerTypeAdapter(LocalDateTime.class, new LocalDateTimeAdapter())
+              .setPrettyPrinting()
+              .create();
     }
 
     public void writeToFile(List<T> data) {
@@ -35,7 +40,6 @@ public class JsonDataMapper<T> {
             List<T> data = gson.fromJson(reader, listType);
             return (data != null) ? data : new ArrayList<>();
         } catch (IOException e) {
-            // Якщо файлу ще немає, повертаємо порожній список
             return new ArrayList<>();
         }
     }

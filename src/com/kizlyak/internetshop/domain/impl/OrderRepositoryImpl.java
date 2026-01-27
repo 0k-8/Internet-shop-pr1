@@ -1,5 +1,6 @@
 package com.kizlyak.internetshop.domain.impl;
 
+import com.kizlyak.internetshop.domain.cache.IdentityMap;
 import com.kizlyak.internetshop.domain.model.Order;
 import com.kizlyak.internetshop.domain.repository.OrderRepository;
 import java.util.ArrayList;
@@ -9,24 +10,27 @@ import java.util.stream.Collectors;
 
 public class OrderRepositoryImpl implements OrderRepository {
 
-    // Список усіх продажів у системі
-    private final List<Order> orders = new ArrayList<>();
+    private final IdentityMap<Order> cache;
+
+    public OrderRepositoryImpl(IdentityMap<Order> cache) {
+        this.cache = cache;
+    }
 
     @Override
     public void save(Order order) {
-        orders.add(order);
+        cache.add(order);
     }
 
     @Override
     public List<Order> findAll() {
-        return new ArrayList<>(orders);
+        return new ArrayList<>(cache.getAll().values());
     }
 
     @Override
     public List<Order> findByUserId(UUID userId) {
-        // Фільтруємо замовлення, щоб знайти лише ті, що належать конкретному юзеру
-        return orders.stream()
-              .filter(order -> order.getCustomer().getId().equals(userId))
+        return cache.getAll().values().stream()
+              .filter(order -> order.getCustomer() != null &&
+                    order.getCustomer().getId().equals(userId))
               .collect(Collectors.toList());
     }
 }

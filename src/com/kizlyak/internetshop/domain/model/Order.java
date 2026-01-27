@@ -4,30 +4,35 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
-public class Order extends BaseEntity {
+public class Order extends BaseEntity implements Entity {
 
     private final User customer;
     private final LocalDateTime orderDate;
-    private List<OrderItem> items = new ArrayList<>();
+    private final String address; // Додаємо адресу
+    private final List<OrderItem> items;
 
-    public Order(User customer) {
+    public Order(User customer, String address) {
         super();
         this.customer = customer;
+        this.address = address;
         this.orderDate = LocalDateTime.now();
         this.items = new ArrayList<>();
+
     }
 
-    // ЦЕЙ МЕТОД ВИПРАВЛЯЄ ВАШУ ПОМИЛКУ
-    public User getCustomer() {
-        return customer;
-    }
 
     public void addProduct(Product product, int quantity) {
-        if (product.getStockQuantity() >= quantity) {
-            items.add(new OrderItem(product, quantity));
-            product.setStockQuantity(product.getStockQuantity() - quantity);
-        }
+        this.items.add(new OrderItem(product, quantity));
+    }
+
+    // Метод для отримання списку категорій для JSON
+    public List<Category> getCategories() {
+        return items.stream()
+              .map(item -> item.getProduct().getCategory())
+              .distinct()
+              .collect(Collectors.toList()).reversed();
     }
 
     public BigDecimal getTotalAmount() {
@@ -35,4 +40,23 @@ public class Order extends BaseEntity {
               .map(item -> item.getPrice().multiply(BigDecimal.valueOf(item.getQuantity())))
               .reduce(BigDecimal.ZERO, BigDecimal::add);
     }
+
+    // Геттери для мапера
+    public User getCustomer() {
+        return customer;
+    }
+
+    public LocalDateTime getOrderDate() {
+        return orderDate;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public List<OrderItem> getItems() {
+        return items;
+    }
+
+
 }

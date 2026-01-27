@@ -10,15 +10,17 @@ public class IdentityMap<T extends Entity> {
     private final Map<UUID, T> entities = new HashMap<>();
 
     public void add(T entity) {
-        entities.put(entity.getId(), entity);
-    }
-
-    public T get(UUID id) {
-        return entities.get(id);
+        if (entity != null && entity.getId() != null) {
+            entities.put(entity.getId(), entity);
+        }
     }
 
     public void remove(UUID id) {
         entities.remove(id);
+    }
+
+    public T get(UUID id) {
+        return entities.get(id);
     }
 
     public Map<UUID, T> getAll() {
