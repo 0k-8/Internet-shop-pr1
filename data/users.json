@@ -16,5 +16,14 @@
     "password": "$2a$10$elivTQvNJ3M7zrHkt5hu9O6Req3LHJGUGw849Thpca.4bvOzakvk2",
     "firstName": "Головний",
     "id": "550e8400-e29b-41d4-a716-446655440000"
+  },
+  {
+    "username": "denys",
+    "email": "deniskizlak616@gmail.com",
+    "lastName": "deasd",
+    "role": "USER",
+    "password": "$2a$10$QOr1PlHMbQ9.lbP8LucH/uGhjI572lWAZK77YCeZIfyiXTTgZJQmW",
+    "firstName": "denys",
+    "id": "80f607de-5086-4505-8873-4ff3d81263f7"
   }
 ]

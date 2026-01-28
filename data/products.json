@@ -160,7 +160,7 @@
     "name": "Kindle Paperwhite Signature Edition",
     "description": "Електронна книга з підсвічуванням",
     "price": 8000,
-    "stockQuantity": 22,
+    "stockQuantity": 20,
     "category": {
       "name": "Планшети та електронні книги",
       "id": "d4e5f678-9012-3456-789a-bcdef0123456"
@@ -171,7 +171,7 @@
     "name": "Bosch WAN24260",
     "description": "Пральна машина з інверторним двигуном",
     "price": 21000,
-    "stockQuantity": 9,
+    "stockQuantity": 7,
     "category": {
       "name": "Побутова техніка",
       "id": "5513b984-c779-4cd4-ac7c-c76b9610d0bd"

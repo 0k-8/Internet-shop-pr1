@@ -24,13 +24,13 @@ public class UnitOfWorkImpl implements UnitOfWork {
     private final UserRepository userRepository;
     private final OrderRepository orderRepository;
 
-    private final JsonDataMapper<Product> productMapper = new JsonDataMapper<>("products.json",
+    private final JsonDataMapper<Product> productMapper = new JsonDataMapper<>("data/products.json",
           new TypeToken<List<Product>>() {
           }.getType());
-    private final JsonDataMapper<User> userMapper = new JsonDataMapper<>("users.json",
+    private final JsonDataMapper<User> userMapper = new JsonDataMapper<>("data/users.json",
           new TypeToken<List<User>>() {
           }.getType());
-    private final JsonDataMapper<Order> orderMapper = new JsonDataMapper<>("orders.json",
+    private final JsonDataMapper<Order> orderMapper = new JsonDataMapper<>("data/orders.json",
           new TypeToken<List<Order>>() {
           }.getType());
 
@@ -47,7 +47,7 @@ public class UnitOfWorkImpl implements UnitOfWork {
         productMapper.readFromFile().forEach(productCache::add);
         userMapper.readFromFile().forEach(userCache::add);
         orderMapper.readFromFile().forEach(orderCache::add);
-        
+
     }
 
     @Override

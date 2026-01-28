@@ -1,0 +1,86 @@
+[
+  {
+    "customer": {
+      "username": "денис",
+      "email": "kizljakdenja@gmail.com",
+      "lastName": "кізляк",
+      "role": "USER",
+      "password": "$2a$10$elivTQvNJ3M7zrHkt5hu9O6Req3LHJGUGw849Thpca.4bvOzakvk2",
+      "firstName": "денис",
+      "id": "8c788b00-74de-4a8e-a7bd-b3c8b48b74c2"
+    },
+    "orderDate": "2026-01-27T19:06:10.6871995",
+    "address": "qwerasdfsgv",
+    "items": [
+      {
+        "product": {
+          "name": "Dell XPS 15",
+          "description": "Потужний ноутбук з Windows",
+          "price": 62000,
+          "stockQuantity": 3,
+          "id": "a1f4d5c6-9b12-4c23-8a44-1d6f9a2b3333"
+        },
+        "quantity": 1,
+        "price": 62000
+      },
+      {
+        "product": {
+          "name": "ASUS ROG Strix",
+          "description": "Ігровий ноутбук з потужною відеокартою",
+          "price": 85000,
+          "stockQuantity": 1,
+          "id": "b7c1d2e3-4455-6677-8899-aabbccddeeff"
+        },
+        "quantity": 1,
+        "price": 85000
+      }
+    ],
+    "id": "81d2ca24-ff14-44e5-9998-3268d45298ee"
+  },
+  {
+    "customer": {
+      "username": "денис",
+      "email": "kizljakdenja@gmail.com",
+      "lastName": "кізляк",
+      "role": "USER",
+      "password": "$2a$10$elivTQvNJ3M7zrHkt5hu9O6Req3LHJGUGw849Thpca.4bvOzakvk2",
+      "firstName": "Денис",
+      "id": "8c788b00-74de-4a8e-a7bd-b3c8b48b74c2"
+    },
+    "orderDate": "2026-01-28T01:37:30.5925834",
+    "address": "",
+    "items": [
+      {
+        "product": {
+          "name": "Bosch WAN24260",
+          "description": "Пральна машина з інверторним двигуном",
+          "price": 21000,
+          "stockQuantity": 7,
+          "category": {
+            "name": "Побутова техніка",
+            "id": "5513b984-c779-4cd4-ac7c-c76b9610d0bd"
+          },
+          "id": "bb202020-eeee-4666-8777-202020202020"
+        },
+        "quantity": 1,
+        "price": 21000
+      },
+      {
+        "product": {
+          "name": "Kindle Paperwhite Signature Edition",
+          "description": "Електронна книга з підсвічуванням",
+          "price": 8000,
+          "stockQuantity": 20,
+          "category": {
+            "name": "Планшети та електронні книги",
+            "id": "d4e5f678-9012-3456-789a-bcdef0123456"
+          },
+          "id": "7a777777-bbbb-4444-8555-777777777777"
+        },
+        "quantity": 1,
+        "price": 8000
+      }
+    ],
+    "id": "6bf2ecf8-e654-4b6d-81cf-37829a3498d5"
+  }
+]
